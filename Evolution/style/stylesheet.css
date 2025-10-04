@@ -1,5 +1,29 @@
-
-.tab{
-    display:inline-block;
-    margin-left: 4em;
+body{
+    min-height: 100vh;
+    margin:0;
+}
+h1{
+    padding-top: 1.5em;
+    text-align: center;
+}
+#wrapper{
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.hanging{
+    text-indent: -2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+footer{
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#wrapper{
+    flex:1;
 }
